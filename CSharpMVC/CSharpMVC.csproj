@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Service1.svc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Service1.svc" />
+  </ItemGroup>
+
 </Project>
